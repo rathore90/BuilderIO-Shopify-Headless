@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.plus,.plusminus{background:#00675a}.checkbox,.panel-title,.plus,.plusminus{cursor:pointer};body{background:#fdfdfd}html{scroll-behavior:smooth;webkit-scroll-behavior:smooth;scroll-padding-top:0px}html:focus-within{scroll-behavior:smooth;webkit-scroll-behavior:smooth}.plusminus{position:relative;width:24px;height:24px;border-radius:50%}.plusminus.active:before{transform:translatey(-50%) rotate(-90deg);opacity:0}.plusminus.active:after{transform:translatey(-50%) rotate(0)}.plusminus:after,.plusminus:before{content:"";display:block;background-color:#fff;position:absolute;top:50%;left:6px;transition:.35s;width:50%;height:3px}.plusminus:before{transform:translatey(-50%)}.plusminus:after{transform:translatey(-50%) rotate(90deg)}.swiper{max-width:85%;margin:auto}.swiper-pagination{position:unset!important;margin-top:2.5rem}.icon{display:inline-block;color:inherit;opacity:1;width:1.2rem;height:1.2rem;border-style:solid;border-color:currentColor;border-width:.2rem .2rem 0 0}.icon.icon__previous{-webkit-transform:rotate(-135deg);transform:rotate(-135deg);margin-left:10px}.icon.icon__next{-webkit-transform:rotate(45deg);transform:rotate(45deg);margin-left:-10px}.slider-button_wrapper{border:2px solid;border-radius:50%;width:60px;height:60px;align-items:center;display:flex;justify-content:center}.faq-header,.faq-question{border-bottom:1px dotted #ccc}.swiper-pagination-bullet{width:16px!important;height:16px!important}.swiper-pagination-bullet.swiper-pagination-bullet-active{background:#706861}.mySwiper{overflow-y:visible!important}.faq-header{font-size:42px;padding:24px}.faq-content{margin:0 auto}.faq-question{padding:20px 0}.panel-title{width:100%;margin:0}.panel-content{height:0;overflow:hidden;position:relative;opacity:0;-webkit-transition:.4s;-moz-transition:.4s;-o-transition:.4s;transition:.4s}.panel:checked~.panel-content{height:auto;opacity:1;padding:14px 0 0}.plus{width:24px;height:24px;border-radius:50%;display:flex;justify-content:center;align-items:center;color:#fff;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;-webkit-transition:.2s;-moz-transition:.2s;-o-transition:.2s;transition:.2s}.panel:checked~label .plus{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.panel,p:empty{display:none}.grid-container{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:5px;grid-template-areas:"column-1 column-2 column-3"}.grid-item:first-child{grid-area:column-1}.grid-item:nth-child(2){grid-area:column-2}.grid-item:nth-child(3){grid-area:column-3}@media (max-width:768px){.grid-container{grid-template-columns:1fr;grid-template-areas:"column-2" "column-1" "column-3"}}.button img,.slideButton img{transform:translateX(0);transition:.4s}.button:hover img,.slideButton div:hover img{transform:translateX(5px)}.extraCopy,.extraCopy p{font-size:1rem;line-height:1.5rem}.customRichText,.customRichText p{font-size:1.5rem;line-height:2rem;font-weight:700}.customRichText h5,.customRichText h6,.extraCopy h5,.extraCopy h6{font-size:1.875rem;line-height:2.25rem;font-weight:700}.customRichText h4,.extraCopy h4{font-size:2.25rem;line-height:2.5rem;font-weight:700}.customRichText h3,.extraCopy h3{font-size:3rem;line-height:1;font-weight:700}.customRichText h2,.extraCopy h2{font-size:3.75rem;line-height:1;font-weight:700}.customRichText h1,.extraCopy h1{font-size:4.5rem;line-height:1;font-weight:700}.checkbox{background:#fff;display:block;font-size:5vmin;width:22px;height:22px;border:2px solid #f40f00;border-radius:2px;position:relative}.checkbox>input{opacity:0;position:absolute}.check{position:absolute;top:0;left:0;right:0;bottom:0;margin:-2px;clip-path:polygon(0 0,50% 0,100% 0,100% 100%,50% 100%,0 100%);border:2px solid #363636;border-radius:2px;transition:.6s cubic-bezier(.8, 0, .2, 1);transition-property:background-color,clip-path,border-color;transition-delay:0.1s,0s}.checkbox.selected>.check{background-color:#f40f00;border-color:transparent;transition-delay:0s;clip-path:polygon(20% 38%,42% 58%,80% 24%,86% 38%,40% 78%,15% 50%);-webkit-clip-path:polygon(20% 38%,42% 58%,80% 24%,86% 38%,40% 78%,15% 50%)}.slideContainer{box-shadow:0 0 13px 5px rgba(0,0,0,.2);border-radius:10px}.herbaly_price_card h1,.herbaly_price_card h1 span.dynamic_price,.herbaly_price_card_mobile h1,.herbaly_price_card_mobile h1 span.dynamic_price{font-size:52px;font-weight:700;line-height:50px}.herbaly_price_card h1 span{font-size:24px;font-weight:400;line-height:2rem}.herbaly_price_card h2,.herbaly_price_card_mobile h2{font-size:40px;line-height:46px}.herbaly_price_card h3,.herbaly_price_card_mobile h3{font-size:28px;line-height:34px}.banner,.herbaly_price_card h4,.herbaly_price_card_mobile h4{font-size:1.875rem;line-height:2.25rem}.herbaly_price_card h5,.herbaly_price_card_mobile h5{font-size:1.25rem;line-height:1.75rem}.herbaly_price_card h6,.herbaly_price_card_mobile h6{font-size:.75rem;line-height:1rem}.herbaly_price_card a.slideButton div,.herbaly_price_card_mobile a.slideButton div{box-shadow:0 2.632px 2.632px 0 rgba(0,0,0,.25)}@media (max-width:640px){.mobileCondensedDesign h2{font-size:22px;line-height:26px}.mobileCondensedDesign p{font-size: 12px;}.mobileCondensedDesign+a.slideButton+div p{font-size:16px;line-height:20px}.mobileCondensedDesign h1,.mobileCondensedDesign h1 span.dynamic_price{font-size:30px;line-height:36px}.mobileCondensedDesign .price_optional_label p s,.mobileCondensedDesign span.dynamic_price_info,.mobileCondensedDesign span.dynamic_price_info p{font-size:16px;line-height:22px}.mobileCondensedDesign .subscriptionRadio h6{font-size:9px;line-height:12px}.mobileCondensedDesign+a.slideButton div{font-size:18px;line-height:24px}.mobileCondensedDesign .price_optional_label p,.mobileCondensedDesign .price_optional_label p span{line-height:20px}.checkbox{width:18px;height:18px}.herbaly_price_card_mobile h3{font-size:18px;line-height:26px}}@media (min-width:641px) and (max-width:1024px){.mobileCondensedDesign .price_optional_label p,.mobileCondensedDesign .price_optional_label p span{line-height:26px}}@media (max-width:1025px){.mobileCondensedDesign .price_optional_label p span{display:none}.mobileCondensedDesign .price_optional_label p,.mobileCondensedDesign .price_optional_label p span{font-size:1.25rem}}@media (min-width:1025px){.herbaly_price_card :first-child,.herbaly_price_card_mobile :nth-child(2){order:1}.herbaly_price_card :nth-child(2),.herbaly_price_card_mobile :nth-child(4){order:3}.herbaly_price_card :nth-child(3),.herbaly_price_card_mobile :nth-child(6){order:2}}.flipper-container{position:relative;margin-bottom:10px;perspective:1000;height:232px}.face,.flip{height:100%;width:100%}.flip{transform-style:preserve-3d;transition-duration:825ms;transition-property:all;transition-timing-function:cubic-bezier(0.86,0,0.07,1)}.face.back,.flipped{transform:rotateY(180deg)}.face{position:absolute;backface-visibility:hidden}.face.back{display:block;box-sizing:border-box}.banner{text-align:center;font-weight:700;margin-top:1.25rem;margin-bottom:1.25rem}@media (min-width:640px){.banner{text-align:left;font-size:3rem;line-height:50px}}
+.slideContainer .text-center.m-1 p {
+    font-size: 20px;
+}
+.heading__container {
+    display: inline-block;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.4s;
+  }
+  .heading__container.price_optional {
+    height: 22px;
+  }
+  .label-up {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 5%;
+    transition: 0.4s;
+  }
+
+  .herbaly__banner__video {
+    min-height: 179px;
+  }
+
+  .herbaly__banner__video:empty {
+    min-height: 0;
+  }
+
+  @media (min-width: 640px) {
+    .heading__container {
+        height: 55px;
+    }
+    .heading__container.price_optional {
+        height: 26px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .heading__container.price_optional {
+        height: 40px;
+    }
+    .herbaly__banner__video {
+        min-height: 280px;
+    }
+  }
